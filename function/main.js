@@ -66,3 +66,9 @@ function converterKztToUsd(tengeCount){
 console.log(converterUsdToKzt(90));
 console.log(converterKztToUsd(54000));
 
+
+function test(number){
+    while(number < 5){number++;}
+    return number;
+}
+console.log(test(2));
